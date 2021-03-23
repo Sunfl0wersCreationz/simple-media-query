@@ -1,8 +1,12 @@
+body{
+  background:
+  lightblue
+}
 nav{
   background: lightgrey;
   height: 60px
   text-align:center;
-  font-family:bahnschrift;
+  font-family:bahnscrift;
 
 
 
@@ -29,7 +33,6 @@ nav a {
 }
 .flexitem{
   flex-basis: 300px;
-  flex-grow: 2;
   margin:2px;
 }
 
@@ -49,15 +52,17 @@ img{
 
 
 @media screen and (min-width: 700px) {
-   .flexitem{height: 400px;
+
     }
         img{
             width:30%;
             display: inline;
         }
 }
- @media screen and (min-width: 700px) {
-   .flexitem{
-     flex-basis: 30%
-     height:400px;
+ @media screen and (min-width: 1300px) {
+     img{
+       display:none;
+       }
+
+       height:400px;
        }
